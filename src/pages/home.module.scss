@@ -1,0 +1,63 @@
+.container{
+   max-width: 1100px;
+   margin: 0 auto;
+   padding: 0 2rem;
+}
+
+.content{
+
+    max-width: 720px;
+    margin: 0 auto;
+
+    .card{
+        margin-bottom: 3rem;
+        a{
+            display: block;
+            color: white;
+            font-weight: 700px;
+            margin-bottom: 0.5rem;
+            transition: color 0.2s;
+            font-weight: 700;
+            font-size: 28px;
+            &:hover{
+                color:#FF57B2;
+                cursor: pointer;
+            }
+            
+        }
+    }
+    
+    
+    p{
+      color: #D7D7D7;
+      font-size: 18px;
+
+    }
+    img{
+        margin-bottom: 3rem;
+    }
+
+
+    .bottom{
+        gap: 1rem;
+        display: flex;
+     
+        margin-top: 1rem;
+         align-items: center;
+
+         P{
+            color:#BBBBBB;
+            font-size: 14px;
+         }
+       
+    }
+    .button{
+        color:#FF57B2;
+        font-size: 18px;
+        transition: filter 0.2s;
+        &:hover{
+            cursor: pointer;
+            filter: brightness(0.8);
+        }
+      }
+}

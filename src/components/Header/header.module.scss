@@ -1,0 +1,15 @@
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    align-items: center;
+    height: 105px;
+    line-height: 105px;
+
+    div{
+        max-width: 720px;
+        margin: 0 auto;
+        :hover{
+            cursor: pointer;
+        }
+    }
+}
