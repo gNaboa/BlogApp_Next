@@ -37,7 +37,7 @@ interface HomeProps {
        
         <div className={styles.content}>
       
-            {postsPagination.results.map(post=>(
+            {results.map(post=>(
              <div  key={post.uid} className={styles.card}>
                <Link href={`/post/${post.uid}`}>
                   <a>{post.data.title}</a>
